@@ -188,7 +188,7 @@ Get-FileHash .\hbbs.exe -Algorithm SHA256
 README.md                      — эта инструкция
 scripts/run-hbbs.cmd           — запуск ID-сервера с логом
 scripts/run-hbbr.cmd           — запуск релея с логом
-scripts/start-server.bat       — запуск обоих (для автозагрузки)
+scripts/start-server.bat       — запуск обоих, если ещё не запущены (для автозагрузки)
 scripts/firewall.ps1           — правила брандмауэра
 scripts/hotspot-service.ps1    — поднять Wi-Fi и общий доступ
 scripts/hotspot-watchdog.ps1   — починка Wi-Fi/ICS по расписанию
